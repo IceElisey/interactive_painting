@@ -1,0 +1,41 @@
+body{
+  background-color: #efecdb;
+  
+}
+.card-one, .card-two {
+    height: 800px;
+    width: 80%;
+    border: 2px solid #5f2f1182;
+    margin: 5px auto ;
+
+}
+.card-one p, .card-two p{
+    font-size: 24px;
+    text-align: center;
+    color: #2b0d0d;
+}
+.card-one:hover {
+    background-image: url(images/Morning_in_the_forest.jpeg) ;
+    background-size: cover;
+}
+.card-one:hover p {
+    opacity: 0;
+
+}
+.card-two:hover {
+    background-image: url(images/Rye.jpeg);
+    background-size: cover;
+
+}
+.card-two:hover p {
+    opacity: 0;
+
+}
+.card-one:active {
+    background-image: url(images/morning_2.jpeg);
+    background-size: cover;
+}
+.card-two:active {
+    background-image: url(images/Rye_without_color.jpeg);
+    background-size: cover;
+}
